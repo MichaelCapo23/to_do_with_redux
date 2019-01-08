@@ -4,7 +4,7 @@ import {reducer as formReducer} from 'redux-form';
 
 const rootReducer = combineReducers({
     form: formReducer,//key has to be called form
-    list: formReducer
+    list: listReducer
 });
 
 export default rootReducer;
