@@ -60,5 +60,9 @@ function validate(values) {
 
 export default reduxForm({
     form: 'add-item-form',
-    validate: validate//collapse when doing it in the final project
+    validate: validate, //collapse when doing it in the final project
+    // initialValues: {
+    //     title: 'this is the default for title',                this is the easiest way to set default values, but DON'T do it this way
+    //     details: "Enter your details here"
+    // }
 })(addItemForm)
